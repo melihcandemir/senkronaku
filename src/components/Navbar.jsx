@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
 const Navbar = () => {
@@ -18,8 +19,8 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { name: 'Ana Sayfa', href: '#' },
-    { name: 'Hakkımızda', href: '#' },
+    { name: 'Ana Sayfa', href: '/' },
+    { name: 'Hakkımızda', href: '/hakkimizda' },
     {
       name: 'Ürünlerimiz',
       isDropdown: true,
@@ -70,9 +71,9 @@ const Navbar = () => {
                     </svg>
                   </button>
                 ) : (
-                  <a href={link.href} className="hover:text-primary transition-colors duration-200 font-medium py-6 block">
+                  <Link to={link.href} className="hover:text-primary transition-colors duration-200 font-medium py-6 block">
                     {link.name}
-                  </a>
+                  </Link>
                 )}
 
                 {/* Desktop Dropdown */}
@@ -135,9 +136,9 @@ const Navbar = () => {
                   )}
                 </>
               ) : (
-                <a href={link.href} className="block py-3 text-base font-semibold text-tertiary hover:text-primary transition-colors duration-200">
+                <Link to={link.href} onClick={() => setIsMobileMenuOpen(false)} className="block py-3 text-base font-semibold text-tertiary hover:text-primary transition-colors duration-200">
                   {link.name}
-                </a>
+                </Link>
               )}
             </div>
           ))}
