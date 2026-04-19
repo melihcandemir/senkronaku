@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import ScrollToTop from './components/ScrollToTop';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -16,6 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-tertiary flex flex-col relative">
+        <ScrollToTop />
         <Navbar />
         <main className="flex-grow flex flex-col">
           <Routes>
