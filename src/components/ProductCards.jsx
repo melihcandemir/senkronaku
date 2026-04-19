@@ -1,9 +1,7 @@
-import React from 'react';
 import akuHucreleriImg from '../assets/akühucreleri.jpg';
 import akumulatorImg from '../assets/akümülatör.jpg';
 import boruImg from '../assets/boru.jpg';
 import fisImg from '../assets/fis.jpg';
-import forkliftImg from '../assets/forklift.jpg';
 import hucreImg from '../assets/hucre.jpg';
 import kabloImg from '../assets/kablo.png';
 

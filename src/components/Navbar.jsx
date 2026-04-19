@@ -21,14 +21,7 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Ana Sayfa', href: '/' },
     { name: 'Hakkımızda', href: '/hakkimizda' },
-    {
-      name: 'Ürünlerimiz',
-      isDropdown: true,
-      key: 'products',
-      items: [
-        'Akü Kapağı', 'Akü Kazanı', 'Akü Soketleri', 'Akü Kabloları', 'Kutu', 'Starter Akü', 'Civata', 'Saf Su'
-      ]
-    },
+    { name: 'Ürünlerimiz', href: '/urunlerimiz' },
     {
       name: 'Hizmetlerimiz',
       isDropdown: true,
