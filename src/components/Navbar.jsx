@@ -30,7 +30,7 @@ const Navbar = () => {
         'Akü Bakım Servisi', 'Akü Yenileme', 'Akü Bakım Talimatı', 'Traksiyoner Akü', 'Ölçü Listesi'
       ]
     },
-    { name: 'İletişim', href: '#' },
+    { name: 'İletişim', href: '/iletisim' },
   ];
 
   return (

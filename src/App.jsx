@@ -5,6 +5,7 @@ import WhatsAppButton from './components/WhatsAppButton';
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/hakkimizda" element={<About />} />
             <Route path="/urunlerimiz" element={<Products />} />
+            <Route path="/iletisim" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
