@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <a href="#">
+            <a href="/">
               <img className="h-14 w-auto object-contain" src={logo} alt="Senkron Akü Logo" />
             </a>
           </div>

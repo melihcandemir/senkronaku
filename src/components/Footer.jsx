@@ -55,7 +55,7 @@ const Footer = () => {
             </ul>
 
             <div className="mt-8">
-              <h4 className="text-[#fdfdfd] text-base font-semibold mb-4 opacity-80">
+              <h4 className="text-[#f7a707] text-base font-semibold mb-4">
                 Sosyal Medya
               </h4>
               <div className="flex space-x-4">
@@ -80,6 +80,9 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-[#fdfdfd]/20 text-center">
           <p className="text-sm opacity-75">
             &copy; {new Date().getFullYear()} Senkron Akü. Tüm hakları saklıdır.
+          </p>
+          <p className="text-sm opacity-75">
+            Powerd by <a href="https://wa.me/905348324940" target="_blank" rel="noopener noreferrer" className="text-[#f7a707] opacity-100">Melih Can Demir.</a>
           </p>
         </div>
       </div>
