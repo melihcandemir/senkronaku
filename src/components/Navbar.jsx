@@ -27,7 +27,11 @@ const Navbar = () => {
       isDropdown: true,
       key: 'services',
       items: [
-        'Akü Bakım Servisi', 'Akü Yenileme', 'Akü Bakım Talimatı', 'Traksiyoner Akü', 'Ölçü Listesi'
+        { name: 'Akü Bakım Servisi', href: '/hizmetlerimiz/aku-bakim-servisi' },
+        { name: 'Akü Yenileme', href: '/hizmetlerimiz/aku-yenileme' },
+        { name: 'Akü Bakım Talimatı', href: '/hizmetlerimiz/aku-bakim-talimati' },
+        { name: 'Traksiyoner Akü', href: '/hizmetlerimiz/traksiyoner-aku' },
+        { name: 'Ölçü Listesi', href: '/hizmetlerimiz/olcu-listesi' }
       ]
     },
     { name: 'İletişim', href: '/iletisim' },
@@ -76,9 +80,13 @@ const Navbar = () => {
                   >
                     <div className="py-2">
                       {link.items.map((item, idx) => (
-                        <a key={idx} href="#" className="block px-4 py-2.5 text-sm hover:bg-primary hover:text-secondary transition-colors duration-200 font-medium border-b border-gray-100 last:border-0">
-                          {item}
-                        </a>
+                        <Link 
+                          key={idx} 
+                          to={item.href || '#'} 
+                          className="block px-4 py-2.5 text-sm hover:bg-primary hover:text-secondary transition-colors duration-200 font-medium border-b border-gray-100 last:border-0"
+                        >
+                          {item.name || item}
+                        </Link>
                       ))}
                     </div>
                   </div>
@@ -121,9 +129,14 @@ const Navbar = () => {
                   {openDropdown === link.key && (
                     <div className="pl-4 pr-2 py-2 space-y-1 bg-[#000015] rounded-lg mt-1 mb-2">
                       {link.items.map((item, idx) => (
-                        <a key={idx} href="#" className="block px-4 py-2.5 text-sm font-medium text-gray-300 hover:text-primary hover:bg-[#000029] rounded-md transition-colors duration-200">
-                          {item}
-                        </a>
+                        <Link 
+                          key={idx} 
+                          to={item.href || '#'} 
+                          onClick={() => setIsMobileMenuOpen(false)}
+                          className="block px-4 py-2.5 text-sm font-medium text-gray-300 hover:text-primary hover:bg-[#000029] rounded-md transition-colors duration-200"
+                        >
+                          {item.name || item}
+                        </Link>
                       ))}
                     </div>
                   )}

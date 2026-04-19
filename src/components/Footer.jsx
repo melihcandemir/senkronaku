@@ -11,11 +11,11 @@ const Footer = () => {
               SENKRON AKÜ
             </h3>
             <p className="text-sm md:text-base leading-relaxed opacity-90 text-justify">
-              "Senkron Akü, marka ve model farketmeksizin; Traksiyoner Aküler,
+              Senkron Akü, marka ve model farketmeksizin; Traksiyoner Aküler,
               Starter Aküler ve Stasyoner Akülerin Bakım, Yenileme, Servis ve
               Satış Hizmetlerini alanında uzman ve çağın gerektirdiği
               teknolojik alt yapıya sahip personeli ile kaliteden ödün vermeden
-              yapmaktadır."
+              yapmaktadır.
             </p>
           </div>
 
