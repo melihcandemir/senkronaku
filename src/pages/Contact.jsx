@@ -31,7 +31,7 @@ const Contact = () => {
             {/* Contact Cards */}
             <div className="space-y-4">
               <a
-                href="https://maps.app.goo.gl/dFB7YdC1rjn8CND49"
+                href="https://maps.app.goo.gl/MvBKgReecCCygBrE9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-start gap-5 bg-white rounded-2xl p-6 shadow-sm border border-gray-100 hover:shadow-lg hover:border-primary/20 transition-all duration-300"
@@ -135,7 +135,7 @@ const Contact = () => {
             </div>
             <div className="bg-white rounded-2xl p-2 shadow-sm border border-gray-100 flex-grow overflow-hidden" style={{ minHeight: "450px" }}>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3022.9088570351855!2d30.410708!3d40.742031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDQ0JzMxLjMiTiAzMMKwMjQnMzguNiJF!5e0!3m2!1str!2str!4v1776631861199!5m2!1str!2str"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.915452820352!2d30.408169913004482!3d40.74188587126979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ccb3e4f71c9899%3A0x30e23d92e343910e!2zU2Vua3JvbiBBa8O8bcO8bGF0w7ZyIFNlcnZpcyBCYWvEsW0!5e0!3m2!1str!2str!4v1778701587809!5m2!1str!2str"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "430px" }}

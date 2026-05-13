@@ -92,7 +92,7 @@ const Footer = () => {
             <ul className="space-y-5">
               <li>
                 <a
-                  href="https://maps.app.goo.gl/dFB7YdC1rjn8CND49"
+                  href="https://maps.app.goo.gl/MvBKgReecCCygBrE9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-3 group"
